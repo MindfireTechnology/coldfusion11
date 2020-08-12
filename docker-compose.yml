@@ -2,7 +2,7 @@ version: '3.7'
 
 services:    
   coldfusion11:
-    image: inleague/coldfusion11
+    image: mindfiretech/coldfusion11:latest
     build: 
       context: ./config/
       labels:
